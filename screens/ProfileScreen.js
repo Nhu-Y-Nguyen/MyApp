@@ -14,7 +14,7 @@ export default function ProfileScreen() {
       <Text style={styles.name}>Nguyễn Văn A</Text>
       <Text style={styles.email}>nguyenvana@example.com</Text>
 
-      {/* Profile Info */}
+      {/* Thông tin */}
       <View style={styles.infoSection}>
         <View style={styles.infoRow}>
           <Text style={styles.infoLabel}>Số điện thoại:</Text>
@@ -30,7 +30,7 @@ export default function ProfileScreen() {
         </View>
       </View>
 
-      {/* Action Buttons */}
+      {/* Nút chỉnh sửa/Đăng xuất */}
       <View style={styles.actions}>
         <TouchableOpacity style={[styles.button, styles.editButton]}>
           <Text style={styles.buttonText}>Chỉnh sửa</Text>
