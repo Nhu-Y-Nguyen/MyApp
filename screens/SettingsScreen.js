@@ -9,7 +9,7 @@ export default function SettingsScreen() {
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Text style={styles.title}>Cài đặt ứng dụng</Text>
 
-      {/* Notification toggle */}
+      {/* Trạng thái thông báo */}
       <View style={styles.settingRow}>
         <Text style={styles.settingText}>Bật thông báo</Text>
         <Switch
@@ -18,7 +18,7 @@ export default function SettingsScreen() {
         />
       </View>
 
-      {/* Dark Mode toggle */}
+      {/* Chế độ xem */}
       <View style={styles.settingRow}>
         <Text style={styles.settingText}>Chế độ tối</Text>
         <Switch
@@ -27,17 +27,17 @@ export default function SettingsScreen() {
         />
       </View>
 
-      {/* Account settings */}
+      {/* Cài đặt tài khoản */}
       <TouchableOpacity style={styles.settingRow}>
         <Text style={styles.settingText}>Quản lý tài khoản</Text>
       </TouchableOpacity>
 
-      {/* Privacy settings */}
+      {/* Cài đặt quyền riêng tư */}
       <TouchableOpacity style={styles.settingRow}>
         <Text style={styles.settingText}>Cài đặt quyền riêng tư</Text>
       </TouchableOpacity>
 
-      {/* About app */}
+      {/* Giới thiệu ứng dụng */}
       <TouchableOpacity style={styles.settingRow}>
         <Text style={styles.settingText}>Giới thiệu ứng dụng</Text>
       </TouchableOpacity>
